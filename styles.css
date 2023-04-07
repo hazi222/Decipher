@@ -259,6 +259,11 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
+  html {
+    max-width: fit-content;
+  }
+  
+  
   .glowing-btn{
     font-size: 1em;
   }
